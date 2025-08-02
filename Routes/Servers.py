@@ -510,7 +510,7 @@ def create_server_submit():
 
     if check_if_user_suspended(str(get_ptero_id(session['email'])[0])):
         return ("Your Account has been suspended for breaking our TOS, if you believe this is a mistake you can submit "
-                "apeal at panel@lunes.host")
+                "apeal at obilomgoodness9@gmail.com")
 
     body = {
         "name": request.form['name'],
@@ -584,7 +584,7 @@ def update_server_submit(server_id, bypass_owner_only: bool = False):
     
     if check_if_user_suspended(str(get_ptero_id(session['email'])[0])):
         return ("Your Account has been suspended for breaking our TOS, if you believe this is a mistake you can submit "
-                "apeal at panel@lunes.host")
+                "apeal at obilomgoodness9@gmail.com")
 
     ptero_id = get_ptero_id(session['email'])[0]
     response = improve_list_servers(ptero_id) #improved

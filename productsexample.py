@@ -1,5 +1,5 @@
 """
-Product Configuration for Lunes Hosting
+Product Configuration for GoodnessTech
 
 This file defines all available products/plans in the system. Each product is a dictionary
 with the following structure:

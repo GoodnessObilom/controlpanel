@@ -4,7 +4,7 @@
         
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunes Host | Server {{ info['attributes']['name'] }}</title>
+    <title>GoodnessTech | Server {{ info['attributes']['name'] }}</title>
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Luneslogo.png') }}">
     <link rel="stylesheet" href="http://rsms.me/inter/inter.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -48,7 +48,7 @@
                 <a href="/" class="group flex items-center space-x-3">
                     <div class="relative"><img src="{{ url_for('static', filename='images/Lunes.svg') }}" alt="Logo" rel="preload" class="h-auto w-10 rounded-lg" width="32" height="32"></div>
                     <div>
-                        <h2 class="text-xl font-bold text-white">Lunes</h2>
+                        <h2 class="text-xl font-bold text-white">GoodnessTech</h2>
                     </div>
                 </a>
             </div>
@@ -58,7 +58,7 @@
     <!-- Warning Banner for Free Servers -->
     {% if info['attributes']['limits']['memory'] == 128 %}
         <div class="warning-banner">
-            WARNING: FREE SERVERS WILL BE DELETED IF YOU DO NOT LOGIN TO THE "Betadash" (THIS) DASHBOARD EVERY 15 DAYS
+            WARNING: FREE SERVERS WILL BE DELETED IF YOU DO NOT LOGIN TO THE "GoodnessTech" (THIS) DASHBOARD EVERY 15 DAYS
         </div>
     {% endif %}
 
@@ -100,7 +100,7 @@
 
                 <a href="/" class="max-w-xs bg-blue-600 hover:bg-blue-700 py-2 px-6 rounded-md shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105 flex items-center gap-2">
                     <i class="fa-solid fa-arrow-left"></i>
-                    <span class="hidden md:inline">Head Home</span>
+                    <span class="hidden md:inline">Go back Home</span>
                 </a>
 
             </div>

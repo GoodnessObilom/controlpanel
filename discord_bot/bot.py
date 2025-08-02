@@ -16,7 +16,7 @@ async def on_ready():
     
     async def change_presence():
         while True:
-            await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Lunes Hosting"))
+            await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="GoodnessTech"))
             await asyncio.sleep(60)  
 
     asyncio.create_task(change_presence())

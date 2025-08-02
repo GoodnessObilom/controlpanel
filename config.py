@@ -21,7 +21,7 @@ MAIL_PASSWORD = "ezih atbo fppu sdcu"
 MAIL_DEFAULT_SENDER = ""
 RECAPTCHA_SITE_KEY = "0x4AAAAAABnzxiChs7lGEMMi"
 RECAPTCHA_SECRET_KEY = "0x4AAAAAABnzxgbISzL_20CdKuqsLrHA-A4"
-WEBHOOK_URL = "https://discord.com/api/webhooks/1399111793556717588/1qxJmlZkmWLAVTkV1DCuI809Lm_qfxmjh99dv7bv8hc3_Uto0yumkbwb9pYJHV9T5esh"
+TICKET_WEBHOOK_URL = "https://discord.com/api/webhooks/1399111793556717588/1qxJmlZkmWLAVTkV1DCuI809Lm_qfxmjh99dv7bv8hc3_Uto0yumkbwb9pYJHV9T5esh"
 #DISCORD BOT
 ENABLE_BOT = False # Set to True if you want to enable the Discord bot
 TOKEN = "" # Your Discord bot token if ENABLE_BOT is True
